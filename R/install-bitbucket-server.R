@@ -57,7 +57,6 @@ remote_download.bitbucket_server_remote <- function(x, quiet = FALSE) {
   }
 
   dest <- tempfile(fileext = paste0(".tar.gz"))
-  cat(dest, "\n")
 
   # Can download archive using REST API
   # https://docs.atlassian.com/bitbucket-server/rest/6.8.1/bitbucket-rest.html#idp190
